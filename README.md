@@ -1,7 +1,19 @@
-🌐 Natural Park-Cyberdefense
+🌐  Natural Park-Cyberdefense
 
 Projeto técnico de segurança cibernética aplicado a um parque biológico de alta segurança, inspirado em zoológicos modernos — funcional, redundante e sem falhas.
 
+## Inclui
+- DFIR
+- MITRE ATT&CK
+- Logs simulados
+- IoCs
+- Playbooks
+- Threat Modeling
+- Incident Response
+- Arquitetura OT/ICS
+- Infraestrutura Crítica
+
+- 
 🎯 Objetivo do Projeto
 - Criar um ambiente crítico com múltiplos setores biológicos.
 - Simular ataques, incidentes e respostas SOC/DFIR.
