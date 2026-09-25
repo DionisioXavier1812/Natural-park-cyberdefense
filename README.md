@@ -25,17 +25,17 @@ ambiente-2/ → SOC + DFIR
 ambiente-3/ → Laboratórios + Banco Genético
 
 🏗️ Arquitetura Geral (Visão ASCII)
-Código
-                [ Internet ]
-                     |
-             [ Firewall Perimetral ]
-                     |
-        -------------------------------------
-        |               |                  |
-     [ OT/ICS ]       [ SOC ]        [ Laboratórios ]
-        |               |                  |
-   Sensores         SIEM/EDR          Banco Genético
-   PLC/SCADA         DFIR           Controle de Acesso
+[ Internet ]
+|
+[ Firewall Perimetral ]
+|
+-------------------------------------
+|               |                  |
+[ OT/ICS ]       [ SOC ]        [ Laboratórios ]
+|               |                  |
+Sensores         SIEM/EDR          Banco Genético
+PLC/SCADA         DFIR           Controle de Acesso
+
 🚀 Conteúdo do Projeto
 🦁 Cenário Principal
 Parque biológico com setores críticos: felinos, serpentário, aquário, laboratórios, OT/ICS, SOC.
