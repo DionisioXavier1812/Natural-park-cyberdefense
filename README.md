@@ -3,108 +3,170 @@
 <<<<<<< HEAD
 ## ?? Natural Park CyberDefense
 
-[![Status](https://img.shields.io/badge/status-active-green)]()
-[![Focus](https://img.shields.io/badge/focus-blue%20team-red)]()
-[![Domain](https://img.shields.io/badge/domain-OT%2FICS%20Security-blue)]()
+![Status](https://img.shields.io/badge/status-active-green)
+![Focus](https://img.shields.io/badge/focus-blue%20team-red)
+![Domain](https://img.shields.io/badge/domain-OT%2FICS%20Security-blue)
 
-Projeto focado em simulação de ataques e resposta a incidentes em **infraestrutura crítica de um parque natural**, com ênfase em **OT/ICS, SOC, DFIR, MITRE ATT&CK, IoCs, logs simulados e playbooks de resposta**.
+Projeto focado em simulaÃ§Ã£o de ataques e resposta a incidentes em **infraestrutura crÃ­tica de um parque natural**, com Ãªnfase em:
+
+- ðŸ›¡ï¸ DFIR  
+- ðŸ§© MITRE ATT&CK  
+- ðŸ“„ Logs simulados  
+- ðŸ” IoCs  
+- ðŸ“˜ Playbooks  
+- ðŸ§  Threat Modeling  
+- ðŸš¨ Incident Response  
+- ðŸ”— IntegraÃ§Ã£o OT/ICS + SOC  
+
+---
+
+## ðŸŽ¯ Objetivo do Projeto
+
+- Simular ataques cibernÃ©ticos em infraestrutura crÃ­tica de um parque natural (OT/ICS + TI).  
+- Demonstrar investigaÃ§Ã£o DFIR completa, da detecÃ§Ã£o Ã  recomendaÃ§Ã£o final.  
+- Mapear toda a cadeia de ataque Ã s tÃ©cnicas do MITRE ATT&CK.  
+- Consolidar IoCs, logs simulados, timeline DFIR e playbooks de resposta.  
+- Servir como portfÃ³lio profissional para Blue Team, SOC, DFIR e OT/ICS Security.  
+
+---
+
+## ðŸ“ Estrutura do RepositÃ³rio
+
+docs/  
+â”œâ”€â”€ threat-model.md  
+â””â”€â”€ final-report.md  
+
+ambiente-1/  
+â””â”€â”€ ambiente-1-complete.md  
+
+ambiente-2/  
+â””â”€â”€ ambiente-2-complete.md  
+
+ambiente-3/  
+â””â”€â”€ ambiente-3-complete.md  
+
+---
+
+## ðŸš€ ConteÃºdo do Projeto
+
+### ðŸ”¹ CenÃ¡rio Principal
+
+Infraestrutura crÃ­tica de um parque natural contendo:
+
+- Sistemas OT/ICS (bombas, iluminaÃ§Ã£o, portÃµes, sensores ambientais).  
+- Rede corporativa (administraÃ§Ã£o, bilheteria, monitoramento, SOC).  
+- IntegraÃ§Ã£o OT â†” TI com risco de impacto fÃ­sico e operacional.  
+
+---
+
+### ðŸ”¹ AmeaÃ§as Simuladas
+
+- ðŸŽ£ Phishing direcionado a operadores.  
+- ðŸ’» ExecuÃ§Ã£o de payload PowerShell.  
+- ðŸ” MovimentaÃ§Ã£o lateral atÃ© servidores.  
+- ðŸ­ ManipulaÃ§Ã£o de controladores OT (PLC/SCADA).  
+- ðŸ“¤ ExfiltraÃ§Ã£o de telemetria e logs.  
+- ðŸ”’ PersistÃªncia em estaÃ§Ã£o de operador.  
+
+---
+
+### ðŸ”¹ Cadeia de Ataque
+
+1. Acesso inicial via phishing.  
+2. ExecuÃ§Ã£o de PowerShell malicioso.  
+3. MovimentaÃ§Ã£o lateral.  
+4. Descoberta da rede OT.  
+5. ManipulaÃ§Ã£o de controladores.  
+6. ExfiltraÃ§Ã£o de dados.  
+7. DetecÃ§Ã£o pelo SOC e DFIR.  
+
+---
+
+### ðŸ”¹ Ambientes
+
+#### ðŸ­ Ambiente 1 â€“ OT/ICS  
+Sensores, controladores, bombas, iluminaÃ§Ã£o e telemetria.
+
+#### ðŸ›¡ï¸ Ambiente 2 â€“ SOC / DFIR  
+Logs, alertas, correlaÃ§Ã£o, MITRE ATT&CK e investigaÃ§Ã£o.
+
+#### ðŸ§ª Ambiente 3 â€“ LaboratÃ³rios  
+SimulaÃ§Ãµes de ataque/defesa, testes de regras e experimentos.
+
+---
+
+## ðŸ” DFIR
 
 Inclui:
 
-- DFIR
-- MITRE ATT&CK
-- Logs simulados
-- IoCs
-- Playbooks
-- Threat Modeling
-- Incident Response
-- Ambientes OT/ICS e SOC integrados
+- Timeline completa do incidente.  
+- EvidÃªncias simuladas (logs, IoCs, artefatos).  
+- AnÃ¡lise tÃ©cnica por fase da cadeia de ataque.  
+- Mapeamento MITRE ATT&CK.  
+- RecomendaÃ§Ãµes finais para OT/ICS + SOC.  
 
 ---
 
-## ?? Objetivo do Projeto
+## ðŸ“‘ Logs e IoCs
 
-- Simular ataques cibernéticos em infraestrutura crítica de um parque natural (OT/ICS + TI).
-- Demonstrar investigação DFIR completa, da detecção à recomendação final.
-- Mapear toda a cadeia de ataque às técnicas do MITRE ATT&CK.
-- Consolidar IoCs, logs simulados, timeline DFIR e playbooks de resposta.
-- Servir como portfólio profissional para atuação em Blue Team, SOC, DFIR e OT/ICS Security.
+Exemplos:
 
----
-
-## ?? Estrutura do Repositório
-
-- docs/
-  - 	hreat-model.md
-  - inal-report.md
-- mbiente-1/
-  - mbiente-1-complete.md
-- mbiente-2/
-  - mbiente-2-complete.md
-- mbiente-3/
-  - mbiente-3-complete.md
+- Sysmon, Wazuh, Elastic.  
+- Eventos OT/ICS (alteraÃ§Ã£o de parÃ¢metros, comandos suspeitos).  
+- IoCs de arquivos, hashes, IPs, domÃ­nios e PowerShell.  
+- CorrelaÃ§Ã£o TI â†” OT.  
 
 ---
 
-## ?? Conteúdo do Projeto
+## ðŸŽ¯ MITRE ATT&CK
 
-### ?? Cenário Principal
+TÃ©cnicas utilizadas:
 
-Infraestrutura de um **parque natural** com:
-
-- Sistemas de controle de portões, iluminação, bombas de água e sensores ambientais (OT/ICS).
-- Rede corporativa de administração, bilheteria, monitoramento de visitantes e SOC.
-- Integração entre ambiente OT e TI, com risco de impacto físico e operacional.
-
-### ?? Ameaças Simuladas
-
-- Comprometimento de estação de engenharia via **phishing + PowerShell**.
-- Movimentação lateral até controladores OT (PLC/SCADA).
-- Manipulação de sensores ambientais e bombas de água.
-- Exfiltração de dados de telemetria e logs operacionais.
-- Persistência em servidores de aplicação e estação de operador.
-
-### ?? Cadeia de Ataque
-
-1. Acesso inicial via phishing em estação de operador.
-2. Execução de payload em PowerShell com download de backdoor.
-3. Movimentação lateral para servidor de aplicação.
-4. Descoberta de rede OT e protocolos industriais.
-5. Acesso a controladores OT e alteração de parâmetros.
-6. Exfiltração de dados e manutenção de persistência.
-7. Detecção pelo SOC, investigação DFIR e resposta.
-
-### ?? Ambientes
-
-- **Ambiente 1 – OT/ICS do Parque Natural**
-  - Focado em sensores, controladores, bombas, iluminação e telemetria.
-- **Ambiente 2 – SOC / DFIR**
-  - Focado em logs, alertas, correlação, MITRE ATT&CK e investigação.
-- **Ambiente 3 – Laboratórios e Simulações**
-  - Focado em experimentos, simulações de ataque/defesa e testes de regras.
+- T1566 â€“ Phishing  
+- T1059 â€“ PowerShell  
+- T1021 â€“ Remote Services  
+- T1041 â€“ Exfiltration  
+- T1078 â€“ Valid Accounts  
+- T1204 â€“ User Execution  
+- T1489 â€“ Service Stop  
+- T0865 â€“ Manipulation of Control (ICS)  
 
 ---
 
-## ?? DFIR
+## ðŸ·ï¸ Topics do RepositÃ³rio
 
-O projeto inclui:
-
-- Timeline DFIR completa do incidente principal.
-- Evidências simuladas (logs, IoCs, artefatos).
-- Análise técnica detalhada por fase da cadeia de ataque.
-- Mapeamento para MITRE ATT&CK.
-- Recomendações finais para endurecimento de OT/ICS e SOC.
+- blue-team  
+- dfir  
+- soc  
+- ot-ics-security  
+- critical-infrastructure  
+- mitre-attack  
+- incident-response  
+- logs  
+- iocs  
+- playbooks  
 
 ---
 
-## ?? Logs e IoCs
+## ðŸ§  Skills TÃ©cnicas
 
-Exemplos de:
+- DFIR  
+- MITRE ATT&CK Mapping  
+- Blue Team / SOC  
+- Threat Hunting  
+- Incident Response  
+- Logs e Telemetria (Sysmon, Wazuh, Elastic)  
+- OT/ICS Security  
+- Arquitetura de Infraestrutura CrÃ­tica  
+- PowerShell  
+- Git e GitHub  
 
-- Logs simulados de Sysmon, Wazuh e Elastic.
-- Eventos OT/ICS (alteração de parâmetros, comandos suspeitos).
-- IoCs de arquivos, hashes, IPs, domínios e comandos PowerShell.
-- Correlação entre eventos de TI e OT.
+---
+
+## ðŸ“š DocumentaÃ§Ã£o AvanÃ§ada
+
+- docs/threat-model.md  
+- docs/final-report.md  
 
 ---
 
@@ -252,7 +314,7 @@ Acompanhe meu trabalho no GitHub e conecte-se comigo para discutir seguranÃ§a ci
 ## ?? Contato
 
 **LinkedIn:**  
-https://www.linkedin.com/in/dionisio-xavier
+https://www.linkedin.com/in/dionisio-xavier  
 
 **GitHub:**  
 https://github.com/DionisioXavier1812
