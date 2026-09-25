@@ -1,0 +1,8 @@
+[DIAGRAMA CADEIA DE ATAQUE]
+Phishing -> PowerShell -> Lateral Movement -> OT Manipulation -> Exfiltration
+[CADEIA DE ATAQUE SIMULADA]
+1. Atividade suspeita em host corporativo
+2. Conexões de rede anômalas
+3. Acesso indevido a OT/ICS
+4. Alteração de parâmetros críticos em PLC
+5. Detecção, correlação e resposta via SOC/DFIR

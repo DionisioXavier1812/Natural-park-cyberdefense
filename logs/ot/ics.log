@@ -1,0 +1,6 @@
+2026-09-25 10:35:47 ICS-GW Event Type='WriteCommand' Device='PLC-01' Parameter='PumpSpeed' OldValue=60 NewValue=95 User='ops-operator'
+2026-09-25 10:36:12 ICS-GW Event Type='SensorAlert' Device='TEMP-07' Value=89C Status='Critical'
+2026-09-25 10:37:55 ICS-GW Event Type='UnauthorizedAccess' Device='PLC-02' User='unknown'
+2026-09-25 10:35:47 ICS-GW Event Type='WriteCommand' Device='PLC-01' Parameter='PumpSpeed' OldValue=60 NewValue=95 User='ops-operator'
+2026-09-25 10:36:12 ICS-GW Event Type='SensorAlert' Device='TEMP-07' Value=89C Status='Critical'
+2026-09-25 10:37:55 ICS-GW Event Type='UnauthorizedAccess' Device='PLC-02' User='unknown'

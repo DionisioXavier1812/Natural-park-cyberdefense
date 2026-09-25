@@ -1,0 +1,4 @@
+2026-09-25 10:39:22 ELK Event Type='Correlation' Source='Sysmon+Firewall' Result='Potential lateral movement'
+2026-09-25 10:40:01 ELK Event Type='OT Alert' Device='PLC-01' Status='Critical parameter change'
+2026-09-25 10:39:22 ELK Event Type='Correlation' Source='Sysmon+Firewall' Result='Potential lateral movement'
+2026-09-25 10:40:01 ELK Event Type='OT Alert' Device='PLC-01' Status='Critical parameter change'

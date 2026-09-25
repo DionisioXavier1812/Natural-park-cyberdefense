@@ -1,0 +1,4 @@
+2026-09-25 10:37:11 WAZUH ALERT RuleID=31001 Level=7 Description='Suspicious network behavior detected'
+2026-09-25 10:38:44 WAZUH ALERT RuleID=55002 Level=10 Description='Possible credential misuse'
+2026-09-25 10:37:11 WAZUH ALERT RuleID=31001 Level=7 Description='Suspicious network behavior detected'
+2026-09-25 10:38:44 WAZUH ALERT RuleID=55002 Level=10 Description='Possible credential misuse'

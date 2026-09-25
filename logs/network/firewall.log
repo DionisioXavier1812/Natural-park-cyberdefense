@@ -1,0 +1,5 @@
+2026-09-25 10:34:55 FIREWALL01 Block SrcIP=10.0.5.22 DstIP=198.51.100.5 Port=4443 Reason="Suspicious outbound connection"
+2026-09-25 10:34:55 FIREWALL01 Block SrcIP=10.0.5.22 DstIP=198.51.100.5 Port=4443 Reason='Outbound anomaly'
+2026-09-25 10:36:12 FIREWALL01 Allow SrcIP=10.0.5.22 DstIP=10.0.0.15 Port=502 Reason='Modbus OT traffic'
+2026-09-25 10:34:55 FIREWALL01 Block SrcIP=10.0.5.22 DstIP=198.51.100.5 Port=4443 Reason='Outbound anomaly'
+2026-09-25 10:36:12 FIREWALL01 Allow SrcIP=10.0.5.22 DstIP=10.0.0.15 Port=502 Reason='Modbus OT traffic'

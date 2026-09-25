@@ -1,0 +1,9 @@
+{
+  "dashboard": {
+    "title": "OT/ICS Monitoring",
+    "panels": [
+      { "type": "graph", "title": "Temperatura Crítica", "metric": "ot.sensor.temperature" },
+      { "type": "graph", "title": "Comandos PLC", "metric": "ot.plc.commands" }
+    ]
+  }
+}

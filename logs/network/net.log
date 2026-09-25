@@ -1,0 +1,4 @@
+2026-09-25 10:38:22 NETMON Event Type='ARP Scan' Source=10.0.5.22
+2026-09-25 10:39:10 NETMON Event Type='SMB Connection' Source=10.0.5.22 Target=10.0.0.15
+2026-09-25 10:38:22 NETMON Event Type='ARP Scan' Source=10.0.5.22
+2026-09-25 10:39:10 NETMON Event Type='SMB Connection' Source=10.0.5.22 Target=10.0.0.15

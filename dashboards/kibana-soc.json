@@ -1,0 +1,8 @@
+{
+  "title": "Natural Park SOC Overview",
+  "visualizations": [
+    { "name": "Conexões de rede suspeitas", "source": "logs/network/firewall.log" },
+    { "name": "Eventos de host (Sysmon)", "source": "logs/host/sysmon.log" },
+    { "name": "Alertas Wazuh", "source": "logs/wazuh/wazuh.log" }
+  ]
+}

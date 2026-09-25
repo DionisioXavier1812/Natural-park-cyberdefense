@@ -1,0 +1,2 @@
+2026-09-25 10:35:47 ICS-GW OT Event Type="WriteCommand" Device="PLC-01" Parameter="PumpSpeed" OldValue=60 NewValue=95 User="ops-operator"
+2026-09-25 10:36:12 ICS-GW OT Event Type="SensorAlert" Device="TEMP-07" Value=89C Status="Critical"

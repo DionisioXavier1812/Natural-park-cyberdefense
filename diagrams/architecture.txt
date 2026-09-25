@@ -1,0 +1,6 @@
+[DIAGRAMA ARQUITETURA]
+OT/ICS -> Gateway -> SOC -> Elastic/Kibana
+[ARQUITETURA NATURAL PARK CYBERDEFENSE]
+Usuários -> Rede Corporativa -> SOC -> ELK
+Rede Corporativa -> Gateway OT -> Controladores (PLC, sensores, bombas)
+SOC monitora logs de host, rede, OT e correlação em ELK/Kibana

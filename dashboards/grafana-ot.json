@@ -1,0 +1,9 @@
+{
+  "dashboard": {
+    "title": "OT/ICS Monitoring - Natural Park",
+    "panels": [
+      { "type": "graph", "title": "Alterações em PLC-01", "metric": "ics.parameter.change" },
+      { "type": "graph", "title": "Alertas de sensores críticos", "metric": "ics.sensor.critical" }
+    ]
+  }
+}

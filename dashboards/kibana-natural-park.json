@@ -1,0 +1,8 @@
+{
+  "title": "Natural Park CyberDefense - SOC Dashboard",
+  "visualizations": [
+    { "name": "PowerShell Suspeito", "query": "process.name: powershell.exe AND process.command_line:*IEX*" },
+    { "name": "Conexões Externas", "query": "network.direction: outbound AND destination.ip:192.0.2.10" },
+    { "name": "Eventos OT Críticos", "query": "ot.event.status: Critical" }
+  ]
+}
