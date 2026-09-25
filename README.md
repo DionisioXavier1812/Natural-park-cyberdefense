@@ -1,6 +1,6 @@
-# Dionisio Xavier
+# Natural Park CyberDefense
+## 🔍 Laboratório SOC • DFIR • OT/ICS
 
-## 🔍 Projeto-Monitoramento-Deteccao-SOC
 
 ![Status](https://img.shields.io/badge/status-active-green)
 ![Focus](https://img.shields.io/badge/focus-blue_team-red)
