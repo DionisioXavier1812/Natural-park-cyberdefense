@@ -1,13 +1,34 @@
+
 # Natural Park CyberDefense
 ## 🔍 Laboratório SOC • DFIR • OT/ICS
-
 
 ![Status](https://img.shields.io/badge/status-active-green)
 ![Focus](https://img.shields.io/badge/focus-blue_team-red)
 ![Domain](https://img.shields.io/badge/domain-SOC%20%7C%20DFIR%20%7C%20MITRE%20ATT&CK-blue)
 
-Descrição breve do projeto:  
-Projeto profissional de monitoramento, detecção, investigação e resposta a incidentes, incluindo DFIR, MITRE ATT&CK, logs simulados, IoCs, playbooks, threat modeling e documentação técnica consolidada.
+Projeto profissional de monitoramento, detecção, investigação e resposta a incidentes em ambiente híbrido TI/OT, incluindo DFIR, MITRE ATT&CK, logs simulados, IoCs, playbooks, threat modeling e documentação técnica consolidada.
+
+---
+
+## 🧭 Arquitetura do Ambiente (Mermaid)
+
+```mermaid
+flowchart LR
+    User --> Corporate_Network --> SOC
+    SOC --> SIEM
+    Corporate_Network --> OT_Gateway --> PLCs
+    PLCs --> Sensors
+```
+
+---
+
+## 🖼 Arquitetura Visual (PNG/SVG)
+
+Diagramas completos disponíveis na pasta `diagrams/`:
+
+- `diagrams/architecture.png`
+- `diagrams/attack-chain.png`
+- `diagrams/investigation-flow.svg`
 
 ---
 
@@ -22,7 +43,10 @@ Projeto profissional de monitoramento, detecção, investigação e resposta a i
 ---
 
 ## 📁 Estrutura do Repositório
-- `docs/`  
+- `docs/` — Documentação avançada  
+- `diagrams/` — Diagramas PNG/SVG  
+- `use-cases/` — Casos de uso completos  
+- `video/` — Roteiro de vídeo explicativo  
 - `ambiente-1/`  
 - `ambiente-2/`  
 - `ambiente-3/`  
@@ -32,7 +56,7 @@ Projeto profissional de monitoramento, detecção, investigação e resposta a i
 ## 📚 Conteúdo do Projeto
 
 ### 🏞 Cenário Principal
-Ambiente corporativo com múltiplos vetores de ataque simulados.
+Ambiente corporativo com múltiplos vetores de ataque simulados, incluindo interação com infraestrutura OT/ICS.
 
 ### ⚠️ Ameaças Simuladas
 - Execução PowerShell maliciosa  
@@ -40,9 +64,10 @@ Ambiente corporativo com múltiplos vetores de ataque simulados.
 - Credential Harvesting  
 - Movimento lateral  
 - Persistência  
+- Manipulação de parâmetros em PLCs  
 
 ### 🔗 Cadeia de Ataque
-Fluxo completo baseado em MITRE ATT&CK.
+Fluxo completo baseado em MITRE ATT&CK, correlacionando TI → OT → SOC.
 
 ### 🧩 Ambientes
 Três ambientes completos com arquitetura, incidentes e DFIR.
@@ -50,17 +75,64 @@ Três ambientes completos com arquitetura, incidentes e DFIR.
 ---
 
 ## 🕵️ DFIR
-Investigação completa, timeline, evidências, análise e relatório final.
+Investigação completa com:
+- Timeline  
+- Evidências  
+- Logs correlacionados  
+- Análise técnica  
+- Relatório final (`docs/final-report.md`)  
 
 ---
 
 ## 📄 Logs e IoCs
-Logs simulados e indicadores de comprometimento reais.
+Logs simulados:
+- Sysmon  
+- Firewall  
+- Wazuh  
+- Elastic  
+- ICS/OT  
+- IoCs reais e simulados  
 
 ---
 
 ## 🧬 MITRE ATT&CK
-Mapeamento completo das técnicas utilizadas.
+Mapeamento completo das técnicas utilizadas:
+- T1021 — Remote Services  
+- T1041 — Exfiltration  
+- T0865 — Manipulation of Control (ICS)  
+- T1078 — Valid Accounts  
+
+---
+
+## 🔔 Exemplos de Alertas SIEM
+Arquivo completo: `docs/siem-alerts.md`
+
+Inclui:
+- Conexão externa suspeita  
+- Atividade anômala em PLC  
+- Credenciais abusadas  
+- Correlação TI → OT  
+
+---
+
+## 🔍 Caso de Uso — Investigação OT/ICS
+
+Arquivo completo: `use-cases/ot-investigation.md`
+
+Resumo:
+1. Alerta SIEM dispara  
+2. Triagem inicial  
+3. Coleta de evidências  
+4. Análise correlacionada  
+5. Resposta e contenção  
+6. Lições aprendidas  
+
+---
+
+## 🎥 Vídeo Explicativo
+Roteiro disponível em:
+
+`video/script.md`
 
 ---
 
@@ -74,6 +146,8 @@ Mapeamento completo das técnicas utilizadas.
 - PowerShell  
 - Logs  
 - IoCs  
+- OT/ICS  
+- Cybersecurity  
 
 ---
 
@@ -86,15 +160,18 @@ Mapeamento completo das técnicas utilizadas.
 - Logs e Telemetria  
 - PowerShell  
 - Git  
+- OT/ICS Security  
 
 ---
 
 ## 📑 Documentação Avançada
 - `docs/threat-model.md`  
 - `docs/final-report.md`  
+- `docs/siem-alerts.md`  
 
 ---
 
 ## 📬 Contato
-LinkedIn: https://www.linkedin.com/in/dionisio-xavier  
-GitHub: https://github.com/DionisioXavier1812
+LinkedIn: [https://www.linkedin.com/in/dionisio-xavier](https://www.linkedin.com/in/dionisio-xavier)  
+GitHub: [https://github.com/DionisioXavier1812](https://github.com/DionisioXavier1812)
+```
