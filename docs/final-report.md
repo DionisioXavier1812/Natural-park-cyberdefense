@@ -1,16 +1,3 @@
-# Final Report – Natural Park-Cyberdefense
+# Final Report – DFIR – Natural Park CyberDefense
 
-## Sumário
-Três incidentes simulados em setores críticos: OT/ICS, SOC e Laboratórios.
-
-## Conclusões
-- OT vulnerável a comandos indevidos
-- SOC alvo de credenciais
-- Laboratórios alvo de exfiltração
-
-## Recomendações Gerais
-- Zero Trust
-- MFA universal
-- Segmentação total
-- Hardening OT/ICS
-- Monitoramento contínuo
+(cole aqui o conteúdo completo)
