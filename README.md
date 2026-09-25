@@ -1,12 +1,12 @@
 # Dionisio Xavier
 
-## ?? Natural Park-Cyberdefense – Parque Biológico de Alta Segurança
+## ?? Natural Park-Cyberdefense â€“ Parque BiolÃ³gico de Alta SeguranÃ§a
 
 [![Status](https://img.shields.io/badge/status-active-green)]()
 [![Focus](https://img.shields.io/badge/focus-cyber%20defense-red)]()
 [![Domain](https://img.shields.io/badge/domain-OT/ICS%20%7C%20DFIR%20%7C%20SOC-blue)]()
 
-Projeto técnico de segurança cibernética aplicado a um parque biológico de alta segurança, inspirado em zoológicos modernos — funcional, redundante e sem falhas.
+Projeto tÃ©cnico de seguranÃ§a cibernÃ©tica aplicado a um parque biolÃ³gico de alta seguranÃ§a, inspirado em zoolÃ³gicos modernos â€” funcional, redundante e sem falhas.
 
 Inclui:
 - DFIR
@@ -17,20 +17,20 @@ Inclui:
 - Threat Modeling
 - Incident Response
 - Arquitetura OT/ICS
-- Infraestrutura Crítica
+- Infraestrutura CrÃ­tica
 
 ---
 
-## ?? Objetivo do Projeto
-- Criar um ambiente crítico com múltiplos setores biológicos.
+## ğŸ¯ Objetivo do Projeto
+- Criar um ambiente crÃ­tico com mÃºltiplos setores biolÃ³gicos.
 - Simular ataques, incidentes e respostas SOC/DFIR.
-- Mapear técnicas MITRE ATT&CK.
-- Gerar documentação profissional para portfólio.
-- Demonstrar domínio em OT/ICS, Blue Team e DFIR.
+- Mapear tÃ©cnicas MITRE ATT&CK.
+- Gerar documentaÃ§Ã£o profissional para portfÃ³lio.
+- Demonstrar domÃ­nio em OT/ICS, Blue Team e DFIR.
 
 ---
 
-## ?? Estrutura do Repositório
+## ğŸ“ Estrutura do RepositÃ³rio
 - docs/
 - ambiente-1/
 - ambiente-2/
@@ -38,48 +38,45 @@ Inclui:
 
 ---
 
-## ?? Conteúdo do Projeto
-### ?? Cenário Principal
-Parque biológico com setores críticos: felinos, serpentário, aquário, laboratórios, OT/ICS, SOC.
+## ğŸš€ ConteÃºdo do Projeto
 
-### ?? Ameaças Simuladas
-- Intrusão OT/ICS
+### ğŸ¦ CenÃ¡rio Principal
+Parque biolÃ³gico com setores crÃ­ticos: felinos, serpentÃ¡rio, aquÃ¡rio, laboratÃ³rios, OT/ICS, SOC.
+
+### âš ï¸ AmeaÃ§as Simuladas
+- IntrusÃ£o OT/ICS
 - Comprometimento de sensores IoT
-- Escalada de privilégios
-- Exfiltração de dados do banco genético
+- Escalada de privilÃ©gios
+- ExfiltraÃ§Ã£o de dados do banco genÃ©tico
 - Sabotagem ambiental
 
-### ?? Cadeia de Ataque
-Recon ? Intrusão ? Persistência ? Movimento Lateral ? Impacto
+### ğŸ”¥ Cadeia de Ataque
+Recon â†’ IntrusÃ£o â†’ PersistÃªncia â†’ Movimento Lateral â†’ Impacto
 
-### ?? Ambientes
-Ambiente 1: OT/ICS
-Ambiente 2: SOC + DFIR
-Ambiente 3: Laboratórios + Banco Genético
-
----
-
-## ?? DFIR
-Investigação completa com timeline, evidências, logs e IoCs.
+### ğŸ§ª Ambientes
+- Ambiente 1: OT/ICS  
+- Ambiente 2: SOC + DFIR  
+- Ambiente 3: LaboratÃ³rios + Banco GenÃ©tico  
 
 ---
 
-## ?? Logs e IoCs
-Exemplos de telemetria simulada para análise.
+## ğŸ” DFIR
+InvestigaÃ§Ã£o completa com timeline, evidÃªncias, logs e IoCs.
+
+## ğŸ“‘ Logs e IoCs
+Exemplos de telemetria simulada para anÃ¡lise.
+
+## ğŸ¯ MITRE ATT&CK
+TÃ©cnicas mapeadas conforme TTPs utilizadas no ataque.
 
 ---
 
-## ?? MITRE ATT&CK
-Técnicas mapeadas conforme TTPs utilizadas no ataque.
-
----
-
-## ??? Topics do Repositório
+## ğŸ·ï¸ Topics do RepositÃ³rio
 cybersecurity, dfir, soc, mitre, ot-ics, blue-team, incident-response, threat-hunting
 
 ---
 
-## ?? Skills Técnicas
+## ğŸ§  Skills TÃ©cnicas
 - DFIR
 - MITRE ATT&CK
 - Blue Team
@@ -89,16 +86,16 @@ cybersecurity, dfir, soc, mitre, ot-ics, blue-team, incident-response, threat-hu
 - PowerShell
 - Git
 - OT/ICS
-- Infraestruturas Críticas
+- Infraestruturas CrÃ­ticas
 
 ---
 
-## ?? Documentação Avançada
+## ğŸ“š DocumentaÃ§Ã£o AvanÃ§ada
 - docs/threat-model.md
 - docs/final-report.md
 
 ---
 
-## ?? Contato
+## ğŸ“« Contato
 LinkedIn: https://www.linkedin.com/in/dionisio-xavier
 GitHub: https://github.com/DionisioXavier1812
