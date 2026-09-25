@@ -27,3 +27,47 @@ Ambientes biológicos críticos dependem de controles rigorosos de climatizaçã
 ├── ambiente-2/          # SOC + DFIR (Monitoramento, Logs e Forense Computacional)
 ├── ambiente-3/          # Laboratórios + Banco Genético (Integridade de Dados e Acesso)
 └── documentos/          # Relatórios Finais, Threat Models e Evidências
+
+🏗️ Arquitetura do Ambiente
+
+graph TD
+    subgraph Zona_Perimetral [SOC / DFIR - Ambiente 2]
+        SIEM[SIEM & Monitoramento]
+        DFIR[Estação de Resposta a Incidentes]
+    end
+
+    subgraph Zona_Industrial [OT / ICS - Ambiente 1]
+        SCADA[Controle SCADA]
+        PLC[Controladores CLP / Sensores]
+        HVAC[Climatização e Contenção]
+    end
+
+    subgraph Zona_Pesquisa [Laboratórios - Ambiente 3]
+        DB[Banco de Dados Genético]
+        LAB[Sistemas de Análise]
+    end
+
+    SIEM -->|Monitoramento de Logs| SCADA
+    SIEM -->|Monitoramento de Logs| DB
+    SCADA --> PLC
+    PLC --> HVAC
+
+🛡️ Cenários de Ataque e DefesaVetor de AtaqueAmbiente AfetadoTécnica MITRE ATT&CKMitigação / Resposta SOCTampering em Sensores HVACAmbiente 1 (OT/ICS)T0831 (Manipulation of Control)Segmentação de Rede + Alertas de Desvio de TelemetriaExfiltração de Dados GenéticosAmbiente 3 (Laboratórios)T1041 (Exfiltration Over C2)Regras de DLP + Monitoramento de Tráfego de RedeMovimentação Lateral via SSH/RDPAmbiente 2 (SOC)
+
+🚀 Como Executar / Simular o Laboratório
+1 Clonar o Repositório:
+git clone https://github.com/DionisioXavier1812/Natural-park-cyberdefense.git
+cd Natural-park-cyberdefense
+
+2 Navegar pelos Ambientes:
+
+Verifique as configurações de rede e logs em ambiente-1/ e ambiente-2/.
+
+Acesse documentos/ para visualizar os relatórios detalhados de análise forense e mitigação.
+
+👨‍💻 Autor
+Desenvolvido por Dionísio Aparecido da Silva Xavier.
+
+Acompanhe meu trabalho no GitHub e conecte-se comigo para discutir segurança cibernética e infraestruturas críticas!
+
+
